@@ -54,4 +54,12 @@ kubectl apply -f https://github.com/knative/eventing/releases/download/knative-v
 ### Install the core components of Eventing by running the command:
 kubectl apply -f https://github.com/knative/eventing/releases/download/knative-v1.6.
 
+### Verify the installation¶
+kubectl get pods -n knative-eventing
+
+## Install the Google Cloud Pub/Sub Channel by running the command:
+
+kubectl apply -f https://github.com/google/knative-gcp/releases/latest/download/cloud-run-events.yaml
+
+
 
