@@ -1,0 +1,5 @@
+$ kubectl apply --filename https://github.com/knative/serving/releases/download/knative-v1.6.0/serving-crds.yaml
+$ kubectl apply --filename https://github.com/knative/serving/releases/download/knative-v1.6.0/serving-core.yaml
+$ kubectl apply --filename https://github.com/knative/net-istio/releases/download/knative-v1.6.0/release.yaml
+$ kubectl apply --filename https://github.com/knative/eventing/releases/download/knative-v1.6.0/eventing-crds.yaml
+$ kubectl apply --filename https://github.com/knative/eventing/releases/download/knative-v1.6.0/eventing-core.yaml
