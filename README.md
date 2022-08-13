@@ -19,20 +19,28 @@ kubectl apply -f https://github.com/knative/net-istio/releases/download/knative-
 kubectl --namespace istio-system get service istio-ingressgateway
 
 
-# TO verify below are the steps
+# To verify below are the steps
 
 kubectl get pods -n knative-serving
 
 Example output:
 
 NAME                                      READY   STATUS    RESTARTS   AGE
+
 3scale-kourier-control-54cc54cc58-mmdgq   1/1     Running   0          81s
+
 activator-67656dcbbb-8mftq                1/1     Running   0          97s
+
 autoscaler-df6856b64-5h4lc                1/1     Running   0          97s
+
 controller-788796f49d-4x6pm               1/1     Running   0          97s
+
 domain-mapping-65f58c79dc-9cw6d           1/1     Running   0          97s
+
 domainmapping-webhook-cc646465c-jnwbz     1/1     Running   0          97s
+
 webhook-859796bc7-8n5g2                   1/1     Running   0          96s
+
 
 # Magic DNS (sslip.io)
 kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.6.0/serving-default-domain.yaml
