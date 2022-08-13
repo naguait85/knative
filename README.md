@@ -45,3 +45,20 @@ webhook-859796bc7-8n5g2                   1/1     Running   0          96s
 # Magic DNS (sslip.io)
 kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.6.0/serving-default-domain.yaml
 
+
+# Knative Serving installation files¶
+This guide provides reference information about the core Knative Serving YAML files, including:
+
+The custom resource definitions (CRDs) and core components required to install Knative Serving.
+Optional components that you can apply to customize your installation.
+For information about installing these files, see Installing Knative Serving using YAML files.
+
+The following table describes the installation files included in Knative Serving:
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
+
