@@ -18,9 +18,18 @@ metadata:
   namespace: default
 spec:
   template:
+    metadata:
+      name: helloworld-v4
     spec:
       containers:
         - image: docker.io/meteatamel/helloworld:v1
           env:
             - name: TARGET
-              value: "v1"
+              value: "v4"
+  traffic:
+  - tag: current
+    revisionName: helloworld-v1
+    percent: 100
+  - tag: latest
+    latestRevision: true
+    percent: 0

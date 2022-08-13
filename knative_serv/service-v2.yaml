@@ -23,4 +23,4 @@ spec:
         - image: docker.io/meteatamel/helloworld:v1
           env:
             - name: TARGET
-              value: "v1"
+              value: "v2"
