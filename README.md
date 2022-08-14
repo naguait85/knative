@@ -2,6 +2,8 @@
 # Installation Knative using yaml file
 https://medium.com/@aeli/knative-serverless-on-kubernetes-6ee657c8aa2c
 
+https://knative.dev/docs/install/yaml-install/serving/install-serving-with-yaml/#prerequisites
+
 ### Installing Knative Serving using YAML files¶
 kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.6.0/serving-crds.yaml
 
