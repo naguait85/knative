@@ -6,6 +6,8 @@ https://knative.dev/docs/install/yaml-install/serving/install-serving-with-yaml/
 
 https://github.com/tektoncd/pipeline/blob/main/docs/install.md
 
+https://zhimin-wen.medium.com/demo-of-application-routing-of-knative-serving-5d3a22448a53
+
 ### Installing Knative Serving using YAML files¶
 kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.6.0/serving-crds.yaml
 
