@@ -1,0 +1,15 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: hellosvc
+  namespace: cloudacademy
+spec:
+  template:
+    metadata:
+      name: hellosvc-v$version
+    spec:
+      containers:
+        - image: docker.io/cloudacademydevops/helloworld:v1
+          env:
+            - name: SENDER
+              value: "cloudacademy.knative.v$version"
