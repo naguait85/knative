@@ -8,6 +8,14 @@ https://github.com/tektoncd/pipeline/blob/main/docs/install.md
 
 https://zhimin-wen.medium.com/demo-of-application-routing-of-knative-serving-5d3a22448a53
 
+
+$ git clone https://github.com/aws-samples/aws-pipeline-demo-with-tekton.git
+$ cd aws-pipeline-demo-with-tekton
+$ chmod u+x install.sh
+$ ./install.sh
+
+
+
 ### Installing Knative Serving using YAML files¶
 kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.6.0/serving-crds.yaml
 
