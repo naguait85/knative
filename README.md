@@ -4,8 +4,7 @@
 
 https://medium.com/@aeli/knative-serverless-on-kubernetes-6ee657c8aa2c
 
-
-https://medium.com/@aeli/knative-serverless-on-kubernetes-6ee657c8aa2c
+https://github.com/knative/docs/blob/9910b8a9ac57eb9cf642747b774c24077e7f156c/docs/serving/samples/blue-green-deployment.md
 
 https://knative.dev/docs/install/yaml-install/serving/install-serving-with-yaml/#prerequisites
 
