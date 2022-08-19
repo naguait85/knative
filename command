@@ -3,3 +3,8 @@ kubectl create secret docker-registry regcred \
   --docker-username=AWS \
   --docker-password=$(aws ecr get-login-password) \
   --namespace=knative-demo
+  
+  
+https://docs.aws.amazon.com/AmazonECR/latest/userguide/registry_auth.html
+
+
