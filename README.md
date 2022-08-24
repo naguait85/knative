@@ -1,7 +1,7 @@
 # knative
 # Installation Knative using yaml file
 
-kubectl apply --filename https://github.com/tektoncd/dashboard/releases/download/v0.18.0/tekton-dashboard-release.yaml
+kubectl apply --filename https://github.com/tektoncd/dashboard/releases/download/v0.18.1/tekton-dashboard-release.yaml
 
 https://medium.com/@aeli/knative-serverless-on-kubernetes-6ee657c8aa2c
 
